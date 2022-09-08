@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@import "./secciones/contacto";
+@import './secciones/footer';
+
+/*Clase para el div despues de la etiqueta Body*/
+.cuerpo {
+  background-color: #ee8968;
+  h1 {
+    font-family: 'Mulish', sans-serif;
+    color: #302f4e;
+  }
+  p {
+    font-family: 'Mulish', sans-serif;
+    color: #302f4e;
+  }
+}
+
+/*Estilo para  navbar*/
+.navpos {
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoimg {
+  width: 120px;
+  height: 110px;
+  margin: 0px 20px;
+}
+
+/*Clase para el primer div contenedor del titulo*/
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/*Color de fondo para nav y footer*/
+.bground {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+}
+
+
+.main-index {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  min-height: 50vh;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  .main-card {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 20px;
+  }
+}
+
+/*Seteo de tamaño de imagen carrusel*/
+.imgvista {
+  width: 400px;
+  height: 480px;
+  margin: auto;
+}
+
+/*Margenes para ROW sin modificar la clase de Bootstrap*/
+.rmargin {
+  justify-content: space-evenly;
+  margin: 10px 10px 10px 10px;
+}
