@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 
-@import "./secciones/contacto";
+@import './secciones/contacto';
 @import './secciones/footer';
+@import './secciones/navbar';
+@import './secciones/faq';
 
 /*Clase para el div despues de la etiqueta Body*/
 .cuerpo {
@@ -16,21 +18,10 @@
   }
   p {
     font-family: 'Mulish', sans-serif;
-    color: #302f4e;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px 20px;
   }
-}
-
-/*Estilo para  navbar*/
-.navpos {
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.logoimg {
-  width: 120px;
-  height: 110px;
-  margin: 0px 20px;
 }
 
 /*Clase para el primer div contenedor del titulo*/
@@ -48,7 +39,6 @@
   background-color: rgb(255, 255, 255);
   border-radius: 0px;
 }
-
 
 .main-index {
   background-color: rgb(255, 255, 255);

@@ -41,17 +41,6 @@
         text-decoration: none;
         color: black; }
 
-/*Clase para el div despues de la etiqueta Body*/
-.cuerpo {
-  background-color: #ee8968; }
-  .cuerpo h1 {
-    font-family: 'Mulish', sans-serif;
-    color: #302f4e; }
-  .cuerpo p {
-    font-family: 'Mulish', sans-serif;
-    color: #302f4e; }
-
-/*Estilo para  navbar*/
 .navpos {
   flex-wrap: nowrap;
   align-items: center;
@@ -61,6 +50,24 @@
   width: 120px;
   height: 110px;
   margin: 0px 20px; }
+
+.pfaq {
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0px 20px; }
+
+/*Clase para el div despues de la etiqueta Body*/
+.cuerpo {
+  background-color: #ee8968; }
+  .cuerpo h1 {
+    font-family: 'Mulish', sans-serif;
+    color: #302f4e; }
+  .cuerpo p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px 20px; }
 
 /*Clase para el primer div contenedor del titulo*/
 .intro {
