@@ -5,14 +5,14 @@
     align-items: center;
     justify-content: center;
     .color-me {
-        color: #236a96;
+        color: $second;
         &:hover{
-            color: #302f4e;
+            color: $third;
         }
     }
     li{
-      font-family: 'Mulish', sans-serif;
-      border-left: 1px solid #236a96;
+      font-family: $fontsmain;
+      border-left: 1px solid $second;
       padding: 0px 5px;
     }
     &--logoimg {
@@ -21,6 +21,6 @@
         margin: 0px 20px;  
       }
     .btn-color{
-      color: #236a96;
+      color: $second;
     }
   }}

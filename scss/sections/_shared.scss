@@ -1,29 +1,23 @@
 /*Clase para el div despues de la etiqueta Body*/
 .cuerpo {
-  background: rgb(252, 175, 144);
+  background: $fondo1;
   background: linear-gradient(
     0deg,
-    rgba(252, 227, 144, 1) 0%,
-    rgba(252, 229, 150, 1) 10%,
-    rgba(253, 236, 176, 1) 30%,
-    rgba(255, 255, 240, 1) 100%
+    $fondo2 0%,
+    $fondo3 10%,
+    $fondo4 30%,
+    $fondo5 100%
   );
 }
 
 /*Clase para el primer div contenedor del titulo*/
 .intro {
-  display: flex;
-  flex-direction: column;
-  align-content: stretch;
-  align-items: center;
-  width: 100%;
-  padding: 10px;
-  color: #302f4e;
+@extend %estiloPrincipal;
   h1{
-    font-family: 'Mulish', sans-serif;
+    font-family: $fontsmain;
   }
   h2 {
-    font-family: 'Mulish', sans-serif;
+    font-family: $fontsmain;
     font-size: 20px;
     text-align: center;
   }
@@ -31,8 +25,7 @@
 
 /*Seteo de tamaño de imagen carrusel en index*/
 .imgvista {
-  width: 400px;
-  height: 400px;
+@extend %imgPrincipal;
 }
 
 /*Margenes para ROW containers en FAQ y Apartamentos*/
@@ -45,16 +38,16 @@
 .btn-style {
   width: 100px;
   border-radius: 5px;
-  background-color: #236a96;
+  background-color: $second;
   border: 0px;
-  font-family: 'Mulish', sans-serif;
+  font-family: $fontsmain;
   &:hover {
-    background-color: #302f4e;
+    background-color: $third;
   }
 }
 
 /*Estilo para texto de contenido*/
 .cont-stl {
-    font-family: 'Mulish', sans-serif;
-    color: #302f4e;
+    font-family: $fontsmain;
+    color: $third;
 }

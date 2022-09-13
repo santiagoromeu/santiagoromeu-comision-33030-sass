@@ -1,7 +1,7 @@
   /*Clases para el contenido de footer*/
   .footer {
     margin: 20px 0px;
-    background-color: #ffffff;
+    background-color: $neutral;
     height: 40px;
     padding-top: 20px;
     margin-top: 50px ;
@@ -15,9 +15,9 @@
                 justify-content: space-evenly;
                 a {
                     text-decoration: none;
-                    color: #236a96;
+                    color: $second;
                     &:hover{
-                      color: #302f4e;
+                      color: $third;
                     }
               }
             }

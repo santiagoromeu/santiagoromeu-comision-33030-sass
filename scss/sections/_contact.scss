@@ -1,8 +1,5 @@
 .contact {
-    display:flex ;
-    flex-direction: column;
-    padding: 10px;
-    min-width: 20vw;
+  @include estiloContact(20 vw, 10px);
     label {
       padding: 5px;
     }
@@ -10,22 +7,22 @@
       text-align: center;
       border-radius: 5px;
       &:focus {
-        background-color: #236a96;
+        background-color: $second;
         &::placeholder {
-          color: #fff;
+          color: $neutral;
         }
-        color: #fff;
+        color: $neutral;
       }
     }
     textarea {
       text-align: center;
       border-radius: 5px;
       &:focus {
-        background-color: #236a96;
+        background-color: $second;
         &::placeholder {
-          color: #fff;
+          color: $neutral;
               }
-        color: #fff;
+        color: $neutral;
       }
     }
   }

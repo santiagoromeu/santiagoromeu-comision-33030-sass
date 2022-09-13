@@ -1,35 +1,39 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box; }
 
-/*Clase para el div despues de la etiqueta Body*/
-.cuerpo {
-  background: #fcaf90;
-  background: linear-gradient(0deg, #fce390 0%, #fce596 10%, #fdecb0 30%, ivory 100%); }
-
-/*Clase para el primer div contenedor del titulo*/
 .intro {
+  color: #302f4e;
+  font-family: "Mulish", sans-serif;
   display: flex;
   flex-direction: column;
   align-content: stretch;
   align-items: center;
   width: 100%;
-  padding: 10px;
-  color: #302f4e; }
-  .intro h1 {
-    font-family: 'Mulish', sans-serif; }
-  .intro h2 {
-    font-family: 'Mulish', sans-serif;
-    font-size: 20px;
-    text-align: center; }
+  padding: 10px; }
 
-/*Seteo de tamaño de imagen carrusel en index*/
 .imgvista {
   width: 400px;
   height: 400px; }
 
+/*Clase para el div despues de la etiqueta Body*/
+.cuerpo {
+  background: #fcaf90;
+  background: linear-gradient(0deg, #fce390 0%, #fce596 10%, #fdecb0 30%, #fffff0 100%); }
+
+/*Clase para el primer div contenedor del titulo*/
+.intro h1 {
+  font-family: "Mulish", sans-serif; }
+
+.intro h2 {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  text-align: center; }
+
+/*Seteo de tamaño de imagen carrusel en index*/
 /*Margenes para ROW containers en FAQ y Apartamentos*/
 .rmargin {
   justify-content: space-evenly;
@@ -41,13 +45,13 @@
   border-radius: 5px;
   background-color: #236a96;
   border: 0px;
-  font-family: 'Mulish', sans-serif; }
+  font-family: "Mulish", sans-serif; }
   .btn-style:hover {
     background-color: #302f4e; }
 
 /*Estilo para texto de contenido*/
 .cont-stl {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   color: #302f4e; }
 
 /*Estilo para  navbar*/
@@ -60,7 +64,7 @@
     .header__navpos .color-me:hover {
       color: #302f4e; }
   .header__navpos li {
-    font-family: 'Mulish', sans-serif;
+    font-family: "Mulish", sans-serif;
     border-left: 1px solid #236a96;
     padding: 0px 5px; }
   .header__navpos--logoimg {
@@ -72,14 +76,14 @@
 
 /*Div contenedor principal de FAQ*/
 .contfaq {
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 5px; }
 
 .contact {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  min-width: 20vw; }
+  min-width: 20 vw; }
   .contact label {
     padding: 5px; }
   .contact input {
@@ -87,17 +91,17 @@
     border-radius: 5px; }
     .contact input:focus {
       background-color: #236a96;
-      color: #fff; }
+      color: #ffffff; }
       .contact input:focus::placeholder {
-        color: #fff; }
+        color: #ffffff; }
   .contact textarea {
     text-align: center;
     border-radius: 5px; }
     .contact textarea:focus {
       background-color: #236a96;
-      color: #fff; }
+      color: #ffffff; }
       .contact textarea:focus::placeholder {
-        color: #fff; }
+        color: #ffffff; }
 
 /*Clases para el contenido de footer*/
 .footer {
