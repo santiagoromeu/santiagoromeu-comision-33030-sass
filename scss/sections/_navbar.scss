@@ -1,0 +1,25 @@
+  /*Estilo para  navbar*/
+  .navpos {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    .color-me {
+        color: #236a96;
+        &:hover{
+            color: #302f4e;
+        }
+    }
+    li{
+      font-family: 'Mulish', sans-serif;
+      border-left: 1px solid #236a96;
+      padding: 0px 5px;
+    }
+    .logoimg {
+        width: 120px;
+        height: 110px;
+        margin: 0px 20px;  
+      }
+    .btn-color{
+      color: #236a96;
+    }
+  }

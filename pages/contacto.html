@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--favicon-->
+  <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
   <!--Keywords-->
   <meta name="Keywords" content="contacto, consulta, posada, vacaciones, Brasil">
   <!--Description-->
@@ -26,28 +28,29 @@
 
     <!--Barra de navegación-->
     <header>
-      <nav class=" navbar navbar-expand-lg bground navpos">
+      <nav class=" navbar navbar-expand-lg navpos">
         <img src="../img/logo.png" alt="logo" class="logoimg">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler m-2 btn-color" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">INICIO</a>
+              <a class="nav-link color-me" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./departamentos.html">DEPARTAMENTOS</a>
+              <a class="nav-link color-me" href="../pages/apartamentos.html">Alojamiento</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./ubicación.html">UBICACIÓN</a>
+              <a class="nav-link color-me" href="../pages/ubicacion.html">Ubicación</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./faq.html">FAQ</a>
+              <a class="nav-link color-me" href="../pages/faq.html">FAQ</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">CONTACTO</a>
+            <li class="nav-item vl">
+              <a class="nav-link color-me" href="../pages/contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -57,10 +60,11 @@
     <!--Contenedor titulo principal-->
     <div class="container-fluid intro">
       <h1>Haga su consulta</h1>
-      <p class="row text-black">Realice aquí todas las consultas que necesite y nos contactaremos a la brevedad. Tambien puede contactarnos via Whatsapp a travéz del link al final de la página.</p>
+      <h2 class="row intro">Realice aquí todas las consultas que necesite y nos contactaremos a la brevedad. <br>También
+        puede contactarnos via Whatsapp a travéz del link al final de la página.</h2>
     </div>
 
-    <div class="container mt-4 mb-4 contact">
+    <form class="container mt-4 mb-4 contact cont-stl">
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@email.com">
@@ -68,26 +72,31 @@
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Envíanos tu consulta</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
-          placeholder="Escribe aquí"></textarea>
+          placeholder="Escribe aquí tu consulta o comentario"></textarea>
       </div>
-    </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
+      </div>
+      <button type="submit" class="btn btn-primary btn-style">Enviar</button>
+    </form>
 
     <!--Footer-->
-    <footer class="footer bground">
+    <footer class="footer">
       <ul class="container">
         <li>
           <a href="https://www.facebook.com" target="_blank">
-            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-facebook color-me"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
+          <a href="https://www.instagram.com/morada_da_laika/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+            <i class="fa-brands fa-instagram color-me"></i>
           </a>
         </li>
         <li>
           <a href="https://wa.me/5491131452659" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-whatsapp color-me"></i>
           </a>
         </li>
       </ul>

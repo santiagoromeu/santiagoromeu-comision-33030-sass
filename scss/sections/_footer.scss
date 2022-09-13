@@ -1,0 +1,25 @@
+  /*Clases para el contenido de footer*/
+  .footer {
+    margin: 20px 0px;
+    background-color: #ffffff;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 50px ;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            li {
+                display: flex;
+                text-decoration: none;
+                justify-content: space-evenly;
+                a {
+                    text-decoration: none;
+                    color: #236a96;
+                    &:hover{
+                      color: #302f4e;
+                    }
+              }
+            }
+        }
+    }

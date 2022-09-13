@@ -1,12 +1,11 @@
 {
   "dependencies": {
-    "node-sass": "^7.0.1",
+    "node-sass": "^7.0.3",
     "nodemon": "^2.0.19"
   },
-  "name": "root",
+  "name": "comision-33030-main",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
@@ -14,5 +13,14 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagoromeu/santiagoromeu-comision-33030-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/santiagoromeu/santiagoromeu-comision-33030-sass/issues"
+  },
+  "homepage": "https://github.com/santiagoromeu/santiagoromeu-comision-33030-sass#readme",
   "description": ""
 }

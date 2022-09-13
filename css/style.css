@@ -4,70 +4,10 @@
   padding: 0px;
   box-sizing: border-box; }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 0px;
-  padding: 10px;
-  min-width: 20vw; }
-  .contact label {
-    padding: 10px; }
-  .contact input {
-    text-align: center; }
-    .contact input:focus {
-      background-color: aquamarine; }
-      .contact input:focus::placeholder {
-        color: white; }
-  .contact textarea {
-    text-align: center; }
-    .contact textarea:focus {
-      background-color: aquamarine; }
-      .contact textarea:focus::placeholder {
-        color: white; }
-
-.footer {
-  margin: 20px 0px; }
-  .footer ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 20px; }
-    .footer ul li {
-      display: flex;
-      text-decoration: none;
-      justify-content: space-evenly; }
-      .footer ul li a {
-        text-decoration: none;
-        color: black; }
-
-.navpos {
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center; }
-
-.logoimg {
-  width: 120px;
-  height: 110px;
-  margin: 0px 20px; }
-
-.pfaq {
-  font-family: 'Mulish', sans-serif;
-  font-size: 20px;
-  color: #ffffff;
-  padding: 0px 20px; }
-
 /*Clase para el div despues de la etiqueta Body*/
 .cuerpo {
-  background-color: #ee8968; }
-  .cuerpo h1 {
-    font-family: 'Mulish', sans-serif;
-    color: #302f4e; }
-  .cuerpo p {
-    font-family: 'Mulish', sans-serif;
-    font-size: 20px;
-    color: #000000;
-    padding: 0px 20px; }
+  background: #fcaf90;
+  background: linear-gradient(0deg, #fce390 0%, #fce596 10%, #fdecb0 30%, ivory 100%); }
 
 /*Clase para el primer div contenedor del titulo*/
 .intro {
@@ -76,33 +16,106 @@
   align-content: stretch;
   align-items: center;
   width: 100%;
-  padding: 20px; }
-
-/*Color de fondo para nav y footer*/
-.bground {
-  background-color: white;
-  border-radius: 0px; }
-
-.main-index {
-  background-color: white;
   padding: 10px;
-  min-height: 50vh;
-  border-radius: 10px;
-  align-items: center;
-  text-align: center; }
-  .main-index .main-card {
-    max-width: 350px;
-    margin: 0 auto;
-    padding: 20px;
-    margin: 20px; }
+  color: #302f4e; }
+  .intro h1 {
+    font-family: 'Mulish', sans-serif; }
+  .intro h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    text-align: center; }
 
-/*Seteo de tamaño de imagen carrusel*/
+/*Seteo de tamaño de imagen carrusel en index*/
 .imgvista {
   width: 400px;
-  height: 480px;
-  margin: auto; }
+  height: 400px; }
 
-/*Margenes para ROW sin modificar la clase de Bootstrap*/
+/*Margenes para ROW containers en FAQ y Apartamentos*/
 .rmargin {
   justify-content: space-evenly;
   margin: 10px 10px 10px 10px; }
+
+/*Estilo para botones*/
+.btn-style {
+  width: 100px;
+  border-radius: 5px;
+  background-color: #236a96;
+  border: 0px;
+  font-family: 'Mulish', sans-serif; }
+  .btn-style:hover {
+    background-color: #302f4e; }
+
+/*Estilo para texto de contenido*/
+.cont-stl {
+  font-family: 'Mulish', sans-serif;
+  color: #302f4e; }
+
+/*Estilo para  navbar*/
+.navpos {
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center; }
+  .navpos .color-me {
+    color: #236a96; }
+    .navpos .color-me:hover {
+      color: #302f4e; }
+  .navpos li {
+    font-family: 'Mulish', sans-serif;
+    border-left: 1px solid #236a96;
+    padding: 0px 5px; }
+  .navpos .logoimg {
+    width: 120px;
+    height: 110px;
+    margin: 0px 20px; }
+  .navpos .btn-color {
+    color: #236a96; }
+
+/*Div contenedor principal de FAQ*/
+.contfaq {
+  background-color: white;
+  border-radius: 5px; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-width: 20vw; }
+  .contact label {
+    padding: 5px; }
+  .contact input {
+    text-align: center;
+    border-radius: 5px; }
+    .contact input:focus {
+      background-color: #236a96;
+      color: #fff; }
+      .contact input:focus::placeholder {
+        color: #fff; }
+  .contact textarea {
+    text-align: center;
+    border-radius: 5px; }
+    .contact textarea:focus {
+      background-color: #236a96;
+      color: #fff; }
+      .contact textarea:focus::placeholder {
+        color: #fff; }
+
+/*Clases para el contenido de footer*/
+.footer {
+  margin: 20px 0px;
+  background-color: #ffffff;
+  height: 40px;
+  padding-top: 20px;
+  margin-top: 50px; }
+  .footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .footer ul li {
+      display: flex;
+      text-decoration: none;
+      justify-content: space-evenly; }
+      .footer ul li a {
+        text-decoration: none;
+        color: #236a96; }
+        .footer ul li a:hover {
+          color: #302f4e; }
