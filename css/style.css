@@ -51,23 +51,23 @@
   color: #302f4e; }
 
 /*Estilo para  navbar*/
-.navpos {
+.header__navpos {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center; }
-  .navpos .color-me {
+  .header__navpos .color-me {
     color: #236a96; }
-    .navpos .color-me:hover {
+    .header__navpos .color-me:hover {
       color: #302f4e; }
-  .navpos li {
+  .header__navpos li {
     font-family: 'Mulish', sans-serif;
     border-left: 1px solid #236a96;
     padding: 0px 5px; }
-  .navpos .logoimg {
+  .header__navpos--logoimg {
     width: 120px;
     height: 110px;
     margin: 0px 20px; }
-  .navpos .btn-color {
+  .header__navpos .btn-color {
     color: #236a96; }
 
 /*Div contenedor principal de FAQ*/
